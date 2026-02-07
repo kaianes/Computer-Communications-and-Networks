@@ -113,6 +113,8 @@ vlan 20
 
 ## PC Ports (ACCESS mode)
 
+![Switches' ports](./images/switch-ports.png)
+
 ### Switch0
 
 ```bash
@@ -195,3 +197,27 @@ Ping works only when **both local and remote MAC addresses** appear in the MAC t
 
 If you want, I can also turn this into a **very short exam-style answer** or a **debug checklist**.
 
+---
+Summary:
+1. Create VLANs on both switches.
+2. Assign ports to the correct VLANs (ACCESS mode).
+3. Configure the trunk port on both switches.
+4. Set IP addresses for devices in the same VLAN.
+5. Verify with show commands and ping tests.
+
+
+### Exercise 2 
+
+![logical-layer-ex2.png](./images/logical-layer-ex2.png)
+
+### Switch 0
+
+![switch0-vlans-ex2.png](./images/switch0-vlans-ex2.png)
+
+### Switch 1
+
+![switch1-vlans-ex2.png](./images/switch1-vlans-ex2.png)
+
+### Ping Test
+
+![VLAN 4 ping test](./images/ex2-ping-result.png)
