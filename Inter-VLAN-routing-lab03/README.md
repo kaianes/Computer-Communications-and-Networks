@@ -219,6 +219,9 @@ ping <destination_ip>
   * fa0/0.20 → 172.17.20.1
 * Verify inter-switch and inter-VLAN communication
 
+![ex3 topology](./images/ex3-topology.png)
+![ex3 result](./images/ex3-result.png)
+
 ---
 
 # Exercise 4
@@ -278,6 +281,8 @@ If ping fails, check:
 * Correct gateway configured on PCs
 * Correct 802.1Q encapsulation on subinterfaces
 
+![ex4 topology](./images/ex4-topology.png)
+
 ---
 
 # Conclusion
@@ -291,7 +296,3 @@ By completing these exercises, you should understand:
 * Router-on-a-Stick
 * Inter-VLAN routing
 * Basic network troubleshooting
-
----
-
-If you want, I can also generate a shorter academic submission version or a more detailed “professor-style” technical version.
