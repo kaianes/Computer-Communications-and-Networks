@@ -29,6 +29,7 @@ A VLAN logically separates devices into different broadcast domains (a transmiss
 A trunk port carries traffic from multiple VLANs using 802.1Q tagging.
 
 - It allows multiple VLANs to pass through the same cable.
+- It **only transports multiple VLANs on the same cable** using tags (802.1Q) **≠ communication between VLANs.**
 
 ### Access Port
 
